@@ -32,7 +32,7 @@ const Playground = ({name, color}) => {
     useEffect(() => {
       let t = setTimeout(() => {
         if(!connected) {
-          setLoadingMessage("Your 'net is slow af....how tf you still waiting, UGH")
+          setLoadingMessage("Your 'net is slow ..., UGH")
         }
       }, 2000)
 
